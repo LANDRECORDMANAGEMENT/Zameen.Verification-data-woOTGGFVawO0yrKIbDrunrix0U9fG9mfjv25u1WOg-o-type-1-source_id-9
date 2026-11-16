@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پنجاب لینڈ ریکارڈ اتھارٹی - تصدیق</title>
+    <!-- گوگل فونٹس -->
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            background-color: #f1f9f6;
+            margin: 0;
+            padding: 0;
+            color: #2d5a3f;
+            line-height: 2;
+        }
+
+        .header {
+            background-color: #003300;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            height: 85px;
+            border-bottom: 5px solid #ffcc00;
+        }
+
+        .header-logo {
+            height: 65px;
+            width: auto;
+            margin-left: 15px;
+        }
+
+        .header-title {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 850px;
+            margin: 30px auto;
+        }
+
+        .main-heading {
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 35px;
+        }
+
+        .info-section {
+            background-color: transparent;
+            border: 1px solid #a3c7b3;
+            margin-bottom: 20px;
+            padding: 25px 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .column {
+            width: 48%;
+            text-align: center;
+        }
+
+        .label {
+            display: block;
+            font-size: 14px;
+            color: #88a694;
+            margin-bottom: 5px;
+        }
+
+        .value {
+            display: block;
+            font-size: 19px;
+            font-weight: bold;
+            color: #2d5a3f;
+        }
+
+        /* ٹیبل سیٹنگز */
+        .scroll-wrapper {
+            width: 100%;
+            border: 1px solid #a3c7b3;
+            margin-bottom: 20px;
+            background-color: white;
+            display: block;
+        }
+
+        .horizontal-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .horizontal-table th {
+            background-color: #438a5e;
+            color: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-weight: normal;
+        }
+
+        .horizontal-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+            color: #2d5a3f;
+        }
+
+        /* موبائل ویو کے لیے اسکرول رولز */
+        @media (max-width: 768px) {
+            .scroll-wrapper {
+                overflow-x: auto; /* صرف موبائل پر اسکرول بار آئے گا */
+                -webkit-overflow-scrolling: touch;
+            }
+            .horizontal-table {
+                min-width: 650px; /* موبائل پر ٹیبل کی چوڑائی برقرار رکھے گا */
+            }
+            .header-title { font-size: 16px; }
+            .header { height: auto; padding: 15px; }
+            .value { font-size: 16px; }
+        }
+
+        /* ڈیسک ٹاپ پر اسکرول ختم */
+        @media (min-width: 769px) {
+            .scroll-wrapper {
+                overflow-x: hidden;
+            }
+        }
+
+        .no-print { text-align: center; margin: 30px; }
+        .print-btn {
+            background-color: #003300;
+            color: white;
+            padding: 12px 45px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        @media print {
+            body { background-color: white; }
+            .no-print { display: none; }
+            .info-section, .scroll-wrapper { border: 1px solid #ccc; }
+            .scroll-wrapper { overflow: visible; }
+            .horizontal-table { min-width: 100% !important; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="logo26.png" alt="Logo" class="header-logo">
+        <div class="header-title">لینڈ ریکارڈ مینجمنٹ انفارمیشن سسٹم</div>
+    </div>
+
+    <div class="container">
+        <h2 class="main-heading">آن لائن تصدیق برائے فرد</h2>
+
+        <!-- سیکشن 1: بنیادی معلومات -->
+        <div class="info-section">
+            <div class="row">
+                <div class="column"><span class="label">ضلع</span><span class="value">رحیم یار خان</span></div>
+                <div class="column"><span class="label">تحصیل</span><span class="value">لیاقت پور</span></div>
+            </div>
+            <div class="row">
+                <div class="column"><span class="label">موضع</span><span class="value">Chak No 20/A</span></div>
+                <div class="column"><span class="label">سال</span><span class="value">2020-21</span></div>
+            </div>
+            <div style="text-align: center;">
+                <span class="label">فرد مقصد</span>
+                <span class="value">فرد برائے بجلی کنکشن</span>
+            </div>
+        </div>
+
+        <!-- سیکشن 2: درخواست گزار کی معلومات -->
+        <div class="info-section">
+            <div class="row">
+ت                <div class="column"><span class="label">نام درخواست کنندہ</span><span class="value">عباس علی ولد عبدالستار قمر</span></div>
+                <div class="column"><span class="label">قوم</span><span class="value">آرائیں</span></div>
+            </div>
+            <div class="row">
+                <div class="column"><span class="label">شناختی کارڈ نمبر</span><span class="value">3130260812719</span></div>
+                <div class="column"><span class="label">اراضی ریکارڈ سنٹر</span><span class="value">لیاقت پور</span></div>
+            </div>
+            <div style="text-align: center;">
+                <span class="label">فیس</span>
+                <span class="value">1880</span>
+            </div>
+        </div>
+
+        <!-- سیکشن 3: اسٹیٹس اور ٹوکن -->
+        <div class="info-section">
+            <div class="row">
+                <div class="column"><span class="label">کیفیت فرد</span><span class="value">اجراء شدہ</span></div>
+                <div class="column"><span class="label">نام اجراء کنندہ</span><span class="value">پنجاب زمین پبلک ایپ</span></div>
+            </div>
+            <div class="row">
+                <div class="column"><span class="label">تاریخ فرد اجراء</span><span class="value">07/11/2026 10:30:12</span></div>
+            </div>
+        </div>
+
+        <!-- منتخب شدہ مالکان - آخر میں اور موبائل پر اسکرول کے ساتھ -->
+        <h3 style="color: #438a5e; margin-bottom: 10px; font-size: 20px;">منتخب شدہ مالکان</h3>
+        <div class="scroll-wrapper">
+            <table class="horizontal-table">
+                <thead>
+                    <tr>
+                        <th>کھیوٹ نمبر</th>
+                        <th>نام</th>
+                        <th>والد / شوہر</th>
+                        <th>کل رقبہ</th>
+                        <th>کل حصہ</th>
+                        <th>فرد حصہ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12</td>
+                        <td>عباس علی</td>
+                        <td>عبدالستار قمر</td>
+                        <td>4-5-0</td>
+                        <td>35/05</td>
+                        <td>0-7-0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="no-print">
+        <button class="print-btn" onclick="window.print()">پرنٹ / محفوظ کریں</button>
+    </div>
+
+</body>
+</html>
